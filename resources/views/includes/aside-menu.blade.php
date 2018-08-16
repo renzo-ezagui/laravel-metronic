@@ -24,10 +24,7 @@
                 <i class="m-menu__link-icon flaticon-line-graph"></i>
                 <span class="m-menu__link-title">
                     <span class="m-menu__link-wrap">
-                        <span class="m-menu__link-text">scrapping-project</span>
-                        <span class="m-menu__link-badge">
-                            <span class="m-badge m-badge--danger">2</span>
-                        </span>
+                        <span class="m-menu__link-text">Scrapping Bot</span>
                     </span>
                 </span>
             </a>
