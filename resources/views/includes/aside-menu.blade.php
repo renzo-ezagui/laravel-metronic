@@ -20,7 +20,7 @@
             </a>
         </li>
         <li class="m-menu__item  m-menu__item--active" aria-haspopup="true">
-            <a href="/scrapping-project" class="m-menu__link ">
+            <a href="/scrapping-bot" class="m-menu__link ">
                 <i class="m-menu__link-icon flaticon-line-graph"></i>
                 <span class="m-menu__link-title">
                     <span class="m-menu__link-wrap">

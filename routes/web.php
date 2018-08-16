@@ -17,3 +17,9 @@ Route::get('/', function () {
 Route::get('/metronic', function () {
     return view('metronic');
 });
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
+Route::get('/scrapping-bot','ScrappingBot@index');
