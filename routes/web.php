@@ -23,3 +23,4 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/scrapping-bot','ScrappingBot@index');
+Route::post('/lets-scrap','ScrappingBot@scrap');
