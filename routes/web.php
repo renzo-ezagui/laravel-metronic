@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('child');
+    return view('landing');
+});
+Route::get('/metronic', function () {
+    return view('metronic');
 });

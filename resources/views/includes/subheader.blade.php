@@ -2,7 +2,7 @@
 <div class="m-subheader ">
 	<div class="d-flex align-items-center">
 		<div class="mr-auto">
-			<h3 class="m-subheader__title ">Dashboard</h3>
+			<h3 class="m-subheader__title ">@yield('page-title')</h3>
 		</div>
 		<div>
   							<span class="m-subheader__daterange" id="m_dashboard_daterangepicker">

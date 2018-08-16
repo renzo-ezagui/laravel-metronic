@@ -6,12 +6,19 @@
         m-menu-scrollable="1" m-menu-dropdown-timeout="500"
         style="position: relative;">
     <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
-        <li class="m-menu__item  m-menu__item--active" aria-haspopup="true"><a href="index.html"
-                                                                               class="m-menu__link "><i
-                        class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-title">  <span
-                            class="m-menu__link-wrap">      <span class="m-menu__link-text">Dashboard</span>      <span
-                                class="m-menu__link-badge"><span
-                                    class="m-badge m-badge--danger">2</span></span>  </span></span></a></li>
+        <li class="m-menu__item  m-menu__item--active" aria-haspopup="true">
+            <a href="/" class="m-menu__link ">
+                <i class="m-menu__link-icon flaticon-line-graph"></i>
+                <span class="m-menu__link-title">
+                    <span class="m-menu__link-wrap">
+                        <span class="m-menu__link-text">Dashboard</span>
+                        <span class="m-menu__link-badge">
+                            <span class="m-badge m-badge--danger">2</span>
+                        </span>
+                    </span>
+                </span>
+            </a>
+        </li>
         <li class="m-menu__section ">
             <h4 class="m-menu__section-text">Components</h4>
             <i class="m-menu__section-icon flaticon-more-v2"></i>
@@ -159,7 +166,8 @@
         <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"><a href="javascript:;"
                                                                                 class="m-menu__link m-menu__toggle"
                                                                                 title="Non functional dummy link"><i
-                        class="m-menu__link-icon flaticon-multimedia-1"></i><span class="m-menu__link-text">Buttons</span><i
+                        class="m-menu__link-icon flaticon-multimedia-1"></i><span
+                        class="m-menu__link-text">Buttons</span><i
                         class="m-menu__ver-arrow la la-angle-right"></i></a>
             <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                 <ul class="m-menu__subnav">
@@ -236,7 +244,8 @@
         <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"><a href="javascript:;"
                                                                                 class="m-menu__link m-menu__toggle"
                                                                                 title="Non functional dummy link"><i
-                        class="m-menu__link-icon flaticon-interface-1"></i><span class="m-menu__link-text">Portlets</span><i
+                        class="m-menu__link-icon flaticon-interface-1"></i><span
+                        class="m-menu__link-text">Portlets</span><i
                         class="m-menu__ver-arrow la la-angle-right"></i></a>
             <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                 <ul class="m-menu__subnav">
@@ -277,7 +286,8 @@
         <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"><a href="javascript:;"
                                                                                 class="m-menu__link m-menu__toggle"
                                                                                 title="Non functional dummy link"><i
-                        class="m-menu__link-icon flaticon-interface-6"></i><span class="m-menu__link-text">Timeline</span><i
+                        class="m-menu__link-icon flaticon-interface-6"></i><span
+                        class="m-menu__link-text">Timeline</span><i
                         class="m-menu__ver-arrow la la-angle-right"></i></a>
             <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                 <ul class="m-menu__subnav">
@@ -319,7 +329,8 @@
         <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"><a href="javascript:;"
                                                                                 class="m-menu__link m-menu__toggle"
                                                                                 title="Non functional dummy link"><i
-                        class="m-menu__link-icon flaticon-calendar"></i><span class="m-menu__link-text">Calendar</span><i
+                        class="m-menu__link-icon flaticon-calendar"></i><span
+                        class="m-menu__link-text">Calendar</span><i
                         class="m-menu__ver-arrow la la-angle-right"></i></a>
             <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                 <ul class="m-menu__subnav">
@@ -695,7 +706,8 @@
         <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"><a href="javascript:;"
                                                                                 class="m-menu__link m-menu__toggle"
                                                                                 title="Non functional dummy link"><i
-                        class="m-menu__link-icon flaticon-tabs"></i><span class="m-menu__link-text">Metronic Datatable</span><i
+                        class="m-menu__link-icon flaticon-tabs"></i><span
+                        class="m-menu__link-text">Metronic Datatable</span><i
                         class="m-menu__ver-arrow la la-angle-right"></i></a>
             <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                 <ul class="m-menu__subnav">
@@ -877,7 +889,8 @@
         <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"><a href="javascript:;"
                                                                                 class="m-menu__link m-menu__toggle"
                                                                                 title="Non functional dummy link"><i
-                        class="m-menu__link-icon flaticon-list-3"></i><span class="m-menu__link-text">DataTables</span><i
+                        class="m-menu__link-icon flaticon-list-3"></i><span
+                        class="m-menu__link-text">DataTables</span><i
                         class="m-menu__ver-arrow la la-angle-right"></i></a>
             <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                 <ul class="m-menu__subnav">
@@ -1100,7 +1113,8 @@
         <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"><a href="javascript:;"
                                                                                 class="m-menu__link m-menu__toggle"
                                                                                 title="Non functional dummy link"><i
-                        class="m-menu__link-icon flaticon-piggy-bank"></i><span class="m-menu__link-text">Invoices</span><i
+                        class="m-menu__link-icon flaticon-piggy-bank"></i><span
+                        class="m-menu__link-text">Invoices</span><i
                         class="m-menu__ver-arrow la la-angle-right"></i></a>
             <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                 <ul class="m-menu__subnav">
@@ -1137,7 +1151,8 @@
         <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"><a href="javascript:;"
                                                                                 class="m-menu__link m-menu__toggle"
                                                                                 title="Non functional dummy link"><i
-                        class="m-menu__link-icon flaticon-suitcase"></i><span class="m-menu__link-text">Custom Pages</span><i
+                        class="m-menu__link-icon flaticon-suitcase"></i><span
+                        class="m-menu__link-text">Custom Pages</span><i
                         class="m-menu__ver-arrow la la-angle-right"></i></a>
             <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                 <ul class="m-menu__subnav">
