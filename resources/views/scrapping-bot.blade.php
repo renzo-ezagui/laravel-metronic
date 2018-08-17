@@ -23,21 +23,30 @@
             <div class="m-portlet__body">
                 <div class="m-form__group form-group">
                     <label>Websites to scrap for:</label>
-                    <div class="m-checkbox-list">
+                    <div class="m-checkbox-list" style="padding-bottom: 20px;">
                         <label class="m-checkbox m-checkbox--air">
-                            <input type="checkbox" name="fme-cat"> www.fme-cat.com
+                            <input type="checkbox" name="fme"> www.fme-cat.com
                             <span></span>
                         </label>
                         <label class="m-checkbox m-checkbox--air">
                             <input type="checkbox" name="dorman"> www.dormanproducts.com
                             <span></span>
                         </label>
+                        <span class="m-form__help">Select one website at least</span>
                     </div>
-                    <span class="m-form__help">Select one website at least</span>
+                    <div class="m-checkbox-list">
+                        <label class="m-checkbox m-checkbox--air">
+                            <input type="checkbox" name="update"> Update codes
+                            <span></span>
+                        </label>
+                        <span class="m-form__help">All found codes will be updated.</span>
+                    </div>
+
                 </div>
                 <div class="form-group m-form__group">
                     <label for="exampleTextarea">Example textarea</label>
-                    <textarea class="form-control m-input m-input--air" id="exampleTextarea" rows="3" name="codes"></textarea>
+                    <textarea class="form-control m-input m-input--air" id="exampleTextarea" rows="3"
+                              name="codes"></textarea>
                 </div>
             </div>
             <div class="m-portlet__foot m-portlet__foot--fit">

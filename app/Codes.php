@@ -9,5 +9,5 @@ use Schema;
 class Codes extends Model
 {
     //
-
+    protected $fillable = ['code', 'fme', 'fme_name', 'dorman','dorman_name'];
 }

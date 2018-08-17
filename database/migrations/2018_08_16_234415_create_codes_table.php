@@ -15,7 +15,7 @@ class CreateCodesTable extends Migration
     {
         Schema::create('codes',function(Blueprint $table){
             $table->increments('id');
-            $table->string('code');
+            $table->string('code')->unique();
             $table->string('fme');
             $table->string('fme_name');
             $table->string('dorman');
